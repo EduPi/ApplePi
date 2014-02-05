@@ -1,0 +1,77 @@
+html {
+	cursor:url('/img/brush.png'),auto;
+}
+
+#buttons {
+	width:100px;
+	height:900px;
+	float:left;
+
+}
+
+#clear {
+	text-decoration: none;
+
+}
+
+.color_pick {
+	width:90px;
+	height:90px;
+	
+	
+}
+
+#color_blue{
+	background-color: #3CF;
+
+}
+
+#color_brown{
+	background-color: #994433;
+}
+
+#color_green{
+	background-color: #3C3;
+}
+
+#color_erase{
+	background-color: #CCC;
+	text-align: center;
+	vertical-align:middle;
+}
+
+.size_pick {	
+	margin: 20px auto;
+}
+
+#size_12 {
+	border-radius:6px;
+	background-color: #333;
+	border:1px solid #333;
+	height:12px;
+	width:12px;
+}
+
+#size_24 {
+	border-radius:12px;
+	background-color: #333;
+	border:1px solid #333;
+	height:24px;
+	width:24px;
+}
+
+#size_32 {
+	border-radius:16px;
+	background-color: #333;
+	border:1px solid #333;
+	height:32px;
+	width:32px;
+}
+
+#size_64 {
+	border-radius:32px;
+	background-color: #333;
+	border:1px solid #333;
+	height:64px;
+	width:64px;
+}
