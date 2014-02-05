@@ -121,9 +121,9 @@ alphabet[26] = "z";
   </tr>
   <tr>
     <td width="20%">&nbsp;</td>
-    <td width="60%" align="center">
+    <td width="60%" align="center" class="letters_box">
       <? foreach ($alphabet as $key => $letter) { ?>
-        <div class="letters show letter_<? echo $key+1?>" data-number="<? echo $key+1?>"><img src="img/alphabet/letters/<? echo $letter?>.jpg"/></div>
+        <div class="letters show letter_<? echo $key+1?>" data-number="<? echo $key+1?>"><img src="img/alphabet/letters/<? echo $letter?>.png"/></div>
       <? } ?>
     </td>
     <td width="20%">&nbsp;</td>
