@@ -1,0 +1,43 @@
+
+#draggable_tri { 
+  	width: 100px; 
+  	height: 100px; 
+  	padding: 0.5em; 
+  	position:absolute; 
+  	margin: 10px 10px 10px 0; 
+  	border:1px solid #8E8;
+  	background-color: #8E8;
+  	border-radius: 75px;
+  }
+
+#draggable_square { 
+  	width: 100px; 
+  	height: 100px; 
+  	padding: 0.5em; 
+  	position:absolute;
+  	margin: 10px 10px 10px 0; 
+  	background-color: #88E;
+  	border:1px solid #88E;
+  }
+  
+.droppable_tri_hover {
+   background-color: #F44 !important;
+}
+
+#droppable_tri {
+   width: 500px; 
+   height: 500px; 
+   padding: 0.5em; 
+   float: left; 
+   margin: 10px;
+   background-color: #E88;
+   border: 1px solid #E88;
+   border-radius:300px;
+   position:absolute;
+   top:25%;
+   left:35%;
+   z-index:-2;
+}
+
+
+
