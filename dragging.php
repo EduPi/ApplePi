@@ -7,6 +7,7 @@
   <script src="js/jquery-1.9.1.js"></script>
   <script src="js/jquery-ui.js"></script>
    <link rel="stylesheet" href="/css/drag_game.css">
+   <link rel="stylesheet" href="/css/style.css">
 
 	<script>
 		$(function() {
@@ -30,9 +31,9 @@
 	
 </head>
 <body>
+	<?php include "inc/nav.php" ?>
 
-	<div id="draggable_square" style="left:25px; top:25px">
-	</div>
+
 	<div id="draggable_circle" style="left:25px; top:175px">
 	</div>
 	<div id="draggable_tri" style="left:25px; top:325px">
@@ -46,8 +47,7 @@
 	<div id="draggable_circle" style="left:25px; top:925px">
 	</div>
 
-	<div id="draggable_tri" style="left:175px; top:25px">
-	</div>
+
 	<div id="draggable_hex" style="left:175px; top:175px">
 	</div>
 	<div id="draggable_circle" style="left:175px; top:325px">
@@ -61,8 +61,7 @@
 	<div id="draggable_tri" style="left:175px; top:925px">
 	</div>
 
-	<div id="draggable_octa" style="left:325px; top:25px">
-	</div>
+
 	<div id="draggable_square" style="left:325px; top:175px">
 	</div>
 	<div id="draggable_tri" style="left:325px; top:325px">
@@ -76,8 +75,6 @@
 	<div id="draggable_square" style="left:325px; top:925px">
 	</div>
 
-	<div id="draggable_circle" style="left:475px; top:25px">
-	</div>
 	<div id="draggable_tri" style="left:475px; top:175px">
 	</div>
 	<div id="draggable_hex" style="left:475px; top:325px">
@@ -91,8 +88,7 @@
 	<div id="draggable_circle" style="left:475px; top:925px">
 	</div>
 
-	<div id="draggable_square" style="left:625px; top:25px">
-	</div>
+
 	<div id="draggable_circle" style="left:625px; top:175px">
 	</div>
 	<div id="draggable_tri" style="left:625px; top:325px">

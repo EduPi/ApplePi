@@ -14,6 +14,15 @@ html {
 
 }
 
+#drawing_box {
+	margin:0px auto;
+	width:1400px;
+}
+
+.cl {
+	clear:both;
+}
+
 .color_pick {
 	width:90px;
 	height:90px;

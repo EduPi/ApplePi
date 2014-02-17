@@ -91,6 +91,9 @@ alphabet[26] = "z";
   </script>
 </head>
 <body>
+
+<?php include "inc/nav.php" ?>
+
  <!--
 <div id="draggable" class="ui-widget-content">
   <p>I revert when I'm dropped</p>

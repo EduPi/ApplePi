@@ -17,11 +17,32 @@ body {
 
 }
 
+.nav_links {
+	width:746px;
+	margin:0px auto;
+	position:relative;
+	padding-top:10px;
+	padding-bottom:20px;
+	float:none;
+	clear:both;
+}
+
+.nav_links a {
+	float:left;
+	margin-left:40px;
+}
+
+.nav_links a:hover{
+	opacity:0.8;
+}
+
+
+
 .background_img {
 	position:absolute;
 	z-index:-1;
 	min-width:1000px;
-	
+
 }
 
 .links {
@@ -60,7 +81,7 @@ body {
 }
 
 .letters_box {
-	padding-top:120px;
+	padding-top:40px;
 
 }
 
