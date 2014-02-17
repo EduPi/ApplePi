@@ -6,7 +6,7 @@ html {
 #draggable_circle { 
   	width: 100px; 
   	height: 100px;  	 
-  	position:absolute; 	
+  	position:fixed; 	
   	border:1px solid #D44;
   	background-color: #D44;
   	border-radius: 75px; 	
@@ -15,7 +15,7 @@ html {
 #draggable_square { 
   	width: 100px; 
   	height: 100px;  	
-  	position:absolute; 	
+  	position:fixed; 	
   	background-color: #55E;
   	border:1px solid #55E;  	
 }
@@ -23,35 +23,35 @@ html {
 #draggable_tri { 
     width: 100px; 
     height: 100px;      
-    position:absolute;     
+    position:fixed;   
     background: url(../img/drag_game/triangle.png) no-repeat;  
 }
 
 #draggable_hex { 
     width: 100px; 
     height: 100px;      
-    position:absolute;     
+    position:fixed;      
     background: url(../img/drag_game/hexa.png) no-repeat;  
 }
 
 #draggable_octa { 
     width: 100px; 
     height: 100px;      
-    position:absolute;     
+    position:fixed;      
     background: url(../img/drag_game/octa.png) no-repeat;  
 }
 
 #droppable_circle {
    width: 500px; 
    height: 500px; 
-   float: right; 
+   
    margin: 10px;
    background-color: #E55;
    border: 1px solid #E55;
    border-radius:300px;
-   position:absolute;
+   position:fixed;
    top:25%;
-   right:5%;
+   left:750px;
    z-index:-2;
 }
 

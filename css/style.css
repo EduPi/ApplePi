@@ -20,18 +20,20 @@ body {
 .background_img {
 	position:absolute;
 	z-index:-1;
+	min-width:1000px;
+	
 }
 
 .links {
-	width:1200px;
+	width:746px;
 	margin:0px auto;
 	position:relative;
-	padding-top:700px;
+	padding-top:550px;
 }
 
 .links a {
 	float:left;
-	margin-left:52px;
+	margin-left:20px;
 }
 
 .links a:hover{
