@@ -1,5 +1,5 @@
 context = document.getElementById('canvas').getContext("2d");
-context.fillStyle = "#CCC";
+context.fillStyle = "#EEE";
 context.fillRect(0,0,1920,900);
 
 
@@ -51,7 +51,7 @@ function addClick(x, y, dragging)
 
 function redraw(){
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
-  context.fillStyle = "#CCC";
+  context.fillStyle = "#EEE";
   context.fillRect(0,0,1920,900);
   i
   //context.strokeStyle = pickedColor;
@@ -77,7 +77,7 @@ function redraw(){
 
 $('#clear').click(function(e){
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
-  context.fillStyle = "#CCC";
+  context.fillStyle = "#EEE";
   context.fillRect(0,0,1920,900);
   insert_image();
   clickX = [];
@@ -87,8 +87,21 @@ $('#clear').click(function(e){
 });
 
 $('.color_pick').click(function(e){
-	pickedColor = rgb2hex($(this).css("background-color"));
-	console.log(rgb2hex($(this).css("background-color")));
+	
+	
+
+  if ($(this).attr("id") == "color_erase"){
+    $("html").css("cursor","url('/img/eraser.png'), auto");
+    pickedColor = "#EEE";
+    strokeWidth = 64;
+  }else{
+    $("html").css("cursor","url('/img/brush.png'), auto");
+    pickedColor = rgb2hex($(this).css("background-color"));
+    strokeWidth = 24;
+  }
+
+  $('.size_pick').css("background-color", pickedColor);
+
 });
 
 $('.size_pick').click(function(e){
@@ -114,7 +127,7 @@ function hex(x) {
 {
 
   
-    context.drawImage(base_image, 100, 100);
+    context.drawImage(base_image, 300, 100);
   
 }
 
@@ -122,6 +135,6 @@ function load_image()
 {
 	base_image.src = '/img/tree.png';
 	base_image.onload = function(){
-    context.drawImage(base_image, 100, 100);
+    context.drawImage(base_image, 300, 100);
   }
 }

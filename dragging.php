@@ -8,68 +8,109 @@
   <script src="js/jquery-ui.js"></script>
    <link rel="stylesheet" href="/css/drag_game.css">
 
-
-
 	<script>
 		$(function() {
-			$( "#draggable_tri, #draggable_square" ).draggable({ revert: "invalid" });
+			$( "#draggable_circle, #draggable_square, #draggable_tri, #draggable_hex, #draggable_octa" ).draggable({ revert: "invalid" });
 			
-			$( "#droppable_tri" ).droppable({
-				accept: "#draggable_tri",
-				activeClass: "droppable_tri_hover",
-				hoverClass: "droppable_tri_hover",
+			$( "#droppable_circle" ).droppable({
+				accept: "#draggable_circle",
+				activeClass: "droppable_circle_hover",
+				hoverClass: "droppable_circle_hover",
 			
 				drop: function( event, ui ) {
 					$( this )
-					.addClass( "droppable_tri_hover" )
-					
-					
+					.addClass( "droppable_circle_hover" )
+									
 				}
 			});
 
-
 		});
-
 
 	</script>
 	
 </head>
 <body>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+
+	<div id="draggable_square" style="left:25px; top:25px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_circle" style="left:25px; top:175px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_tri" style="left:25px; top:325px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_hex" style="left:25px; top:475px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_octa" style="left:25px; top:625px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_tri" style="left:25px; top:775px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_circle" style="left:25px; top:925px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+
+	<div id="draggable_tri" style="left:175px; top:25px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_hex" style="left:175px; top:175px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_circle" style="left:175px; top:325px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_octa" style="left:175px; top:475px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_square" style="left:175px; top:625px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_octa" style="left:175px; top:775px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_tri" style="left:175px; top:925px">
 	</div>
-	<div id="draggable_square" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+
+	<div id="draggable_octa" style="left:325px; top:25px">
 	</div>
-	<div id="draggable_tri" style="left:<?php echo mt_rand(0,1000); ?>px; top:<?php echo mt_rand(0,500); ?>px">
+	<div id="draggable_square" style="left:325px; top:175px">
+	</div>
+	<div id="draggable_tri" style="left:325px; top:325px">
+	</div>
+	<div id="draggable_circle" style="left:325px; top:475px">
+	</div>
+	<div id="draggable_hex" style="left:325px; top:625px">
+	</div>
+	<div id="draggable_circle" style="left:325px; top:775px">
+	</div>
+	<div id="draggable_square" style="left:325px; top:925px">
+	</div>
+
+	<div id="draggable_circle" style="left:475px; top:25px">
+	</div>
+	<div id="draggable_tri" style="left:475px; top:175px">
+	</div>
+	<div id="draggable_hex" style="left:475px; top:325px">
+	</div>
+	<div id="draggable_square" style="left:475px; top:475px">
+	</div>
+	<div id="draggable_tri" style="left:475px; top:625px">
+	</div>
+	<div id="draggable_square" style="left:475px; top:775px">
+	</div>
+	<div id="draggable_circle" style="left:475px; top:925px">
+	</div>
+
+	<div id="draggable_square" style="left:625px; top:25px">
+	</div>
+	<div id="draggable_circle" style="left:625px; top:175px">
+	</div>
+	<div id="draggable_tri" style="left:625px; top:325px">
+	</div>
+	<div id="draggable_hex" style="left:625px; top:475px">
+	</div>
+	<div id="draggable_octa" style="left:625px; top:625px">
+	</div>
+	<div id="draggable_tri" style="left:625px; top:775px">
+	</div>
+	<div id="draggable_circle" style="left:625px; top:925px">
 	</div>
 
 
-	<div id="droppable_tri" >
+
+
+
+	<div id="droppable_circle" >
 		
 	</div>
 

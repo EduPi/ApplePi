@@ -18,17 +18,17 @@
 <body>
 	<div id="buttons">
 
-		<button id="clear">CLEAR</button>
-		<div class="color_pick" id="color_blue"></div>
-		<div class="color_pick" id="color_brown"></div>
-		<div class="color_pick" id="color_green"></div>
-		<div class="color_pick" id="color_erase">ERASER</div>
+		<div id="clear"><img src="img/blank-page.png"/></div>
+		<div class="color_pick" id="color_blue"><img src="img/blue-bg.png"/></div>
+		<div class="color_pick" id="color_brown"><img src="img/brown-bg.png"/></div>
+		<div class="color_pick" id="color_green"><img src="img/green-bg.png"/></div>
+		<div class="color_pick" id="color_erase"><img src="img/erase-bg.png"/></div>
 		<div class="size_pick" data-size="12" id="size_12"></div>
 		<div class="size_pick" data-size="24" id="size_24"></div>
 		<div class="size_pick" data-size="32" id="size_32"></div>
 		<div class="size_pick" data-size="64" id="size_64"></div>
 	</div>
-	<canvas id="canvas" width="1700" height="900"></canvas>
+	<canvas id="canvas" width="1200" height="900"></canvas>
 	<script src="js/drawing_game.js"></script>
 
 </body>
