@@ -20,8 +20,7 @@
 			
 				drop: function( event, ui ) {
 					$( this )
-					.addClass( "droppable_circle_hover" )
-									
+					.addClass( "droppable_circle_hover" )									
 				}
 			});
 
