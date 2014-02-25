@@ -33,73 +33,66 @@
 	<?php include "inc/nav.php" ?>
 
 
-	<div id="draggable_circle" style="left:25px; top:175px">
+	<div id="draggable_circle" style="left:25px; top:150px">
 	</div>
-	<div id="draggable_tri" style="left:25px; top:325px">
+	<div id="draggable_tri" style="left:25px; top:225px">
 	</div>
-	<div id="draggable_hex" style="left:25px; top:475px">
+	<div id="draggable_hex" style="left:25px; top:300px">
 	</div>
-	<div id="draggable_octa" style="left:25px; top:625px">
+	<div id="draggable_octa" style="left:25px; top:375px">
 	</div>
-	<div id="draggable_tri" style="left:25px; top:775px">
-	</div>
-	<div id="draggable_circle" style="left:25px; top:925px">
+	<div id="draggable_tri" style="left:25px; top:450px">
 	</div>
 
 
-	<div id="draggable_hex" style="left:175px; top:175px">
+	<div id="draggable_hex" style="left:100px; top:150px">
 	</div>
-	<div id="draggable_circle" style="left:175px; top:325px">
+	<div id="draggable_circle" style="left:100px; top:225px">
 	</div>
-	<div id="draggable_octa" style="left:175px; top:475px">
+	<div id="draggable_octa" style="left:100px; top:300px">
 	</div>
-	<div id="draggable_square" style="left:175px; top:625px">
+	<div id="draggable_square" style="left:100px; top:375px">
 	</div>
-	<div id="draggable_octa" style="left:175px; top:775px">
-	</div>
-	<div id="draggable_tri" style="left:175px; top:925px">
+	<div id="draggable_octa" style="left:100px; top:450px">
 	</div>
 
 
-	<div id="draggable_square" style="left:325px; top:175px">
+
+	<div id="draggable_square" style="left:175px; top:150px">
 	</div>
-	<div id="draggable_tri" style="left:325px; top:325px">
+	<div id="draggable_tri" style="left:175px; top:225px">
 	</div>
-	<div id="draggable_circle" style="left:325px; top:475px">
+	<div id="draggable_circle" style="left:175px; top:300px">
 	</div>
-	<div id="draggable_hex" style="left:325px; top:625px">
+	<div id="draggable_hex" style="left:175px; top:375px">
 	</div>
-	<div id="draggable_circle" style="left:325px; top:775px">
-	</div>
-	<div id="draggable_square" style="left:325px; top:925px">
+	<div id="draggable_circle" style="left:175px; top:450px">
 	</div>
 
-	<div id="draggable_tri" style="left:475px; top:175px">
+	<div id="draggable_tri" style="left:250px; top:150px">
 	</div>
-	<div id="draggable_hex" style="left:475px; top:325px">
+	<div id="draggable_hex" style="left:250px; top:225px">
 	</div>
-	<div id="draggable_square" style="left:475px; top:475px">
+	<div id="draggable_square" style="left:250px; top:300px">
 	</div>
-	<div id="draggable_tri" style="left:475px; top:625px">
+	<div id="draggable_tri" style="left:250px; top:375px">
 	</div>
-	<div id="draggable_square" style="left:475px; top:775px">
-	</div>
-	<div id="draggable_circle" style="left:475px; top:925px">
+	<div id="draggable_square" style="left:250px; top:450px">
 	</div>
 
 
-	<div id="draggable_circle" style="left:625px; top:175px">
+
+	<div id="draggable_circle" style="left:325px; top:150px">
 	</div>
-	<div id="draggable_tri" style="left:625px; top:325px">
+	<div id="draggable_tri" style="left:325px; top:225px">
 	</div>
-	<div id="draggable_hex" style="left:625px; top:475px">
+	<div id="draggable_hex" style="left:325px; top:300px">
 	</div>
-	<div id="draggable_octa" style="left:625px; top:625px">
+	<div id="draggable_octa" style="left:325px; top:375px">
 	</div>
-	<div id="draggable_tri" style="left:625px; top:775px">
+	<div id="draggable_tri" style="left:325px; top:450px">
 	</div>
-	<div id="draggable_circle" style="left:625px; top:925px">
-	</div>
+
 
 
 

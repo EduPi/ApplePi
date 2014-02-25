@@ -34,27 +34,42 @@
 
       if($(this).data('number') == $(".main_pic img").data('number')){
         
-        $(".main_pic img").attr('src', 'img/alphabet/tick.svg');
+          $(".main_pic img").attr('src', 'img/alphabet/tick.svg');
 
-        $(this).removeClass('show');
-        var new_alphabet = new Array();
+          $(this).removeClass('show');
+          var new_alphabet = new Array();
+          
 
-        $( ".show" ).each(function(index) {
-          new_alphabet[index] = $(this).data('number');
-        });
+          $( ".show" ).each(function(index) {
+            new_alphabet[index] = $(this).data('number');
+          });
 
-        var rand = new_alphabet[Math.floor(Math.random() * new_alphabet.length)];
-        $(".main_pic img").data('number', rand);
-        $(".main_pic img").animate({
-          opacity: 0.25
-        }, 1000, function() {
-          $(".main_pic img").attr('src', 'img/numbers/picture/' + rand + '.jpg').css('opacity','100');
-        });
+          if (new_alphabet.length > 0){
+
+            var rand = new_alphabet[Math.floor(Math.random() * new_alphabet.length)];
+            $(".main_pic img").data('number', rand);
+            $(".main_pic img").animate({
+              opacity: 0.25
+            }, 1000, function() {
+              $(".main_pic img").attr('src', 'img/numbers/picture/' + rand + '.jpg').css('opacity','100');
+            });
+
+          }else {
+            $(".main_pic img").attr('src', 'img/well_done.png');   
+          } 
+        
         
 
       }else{
 
-        alert( 'Sorry!') ;
+        //alert( 'Sorry!') ;
+        $(".main_pic img").attr('src', 'img/alphabet/cross.svg');
+        $(".main_pic img").animate({
+          opacity: 0.25
+        }, 1000, function() {
+          
+          $(".main_pic img").attr('src', 'img/numbers/picture/' + $(".main_pic img").data('number') + '.jpg').css('opacity','100');
+        });
       }
       
     });
@@ -64,6 +79,8 @@
   </script>
 </head>
 <body>
+
+<?php include "inc/nav.php" ?>
  <!--
 <div id="draggable" class="ui-widget-content">
   <p>I revert when I'm dropped</p>
@@ -81,26 +98,18 @@
     $rand = rand(1,10);
  ?>
 
- <table width="100%">
-  <tr>
-    <td width="20%">&nbsp;</td>
-      <td width="60%" align="center">
-        <div class="main_pic">
+ <div class="main_pic">
           <img data-number="<? echo $rand?>" src="img/numbers/picture/<? echo $rand?>.jpg" />
-        </div>
-    </td>
-    <td width="20%">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="20%">&nbsp;</td>
-    <td width="60%" align="center" class="letters_box">
+  </div>
+
+
+
+    <div class="letters_box">
       <? for ($i=1; $i < 11; $i++) { ?>
         <div class="letters show letter_<? echo $i?>" data-number="<? echo $i?>"><img src="img/numbers/number/<? echo $i?>.jpg"/></div>
       <? } ?>
-    </td>
-    <td width="20%">&nbsp;</td>
-  </tr>
- </table>
+    </div>
+ 
  
 </body>
 </html>

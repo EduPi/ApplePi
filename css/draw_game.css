@@ -10,13 +10,20 @@ html {
 }
 
 #clear {
-	text-decoration: none;
+	text-decoration: none;	
+	width:50px;
+	height:50px;
+}
 
+#clear img {
+	text-decoration: none;	
+	width:50px;
+	height:50px;
 }
 
 #drawing_box {
 	margin:0px auto;
-	width:1400px;
+	width:720px;
 }
 
 .cl {
@@ -24,8 +31,13 @@ html {
 }
 
 .color_pick {
-	width:90px;
-	height:90px;
+	width:50px;
+	height:50px;
+}
+
+.color_pick img {
+	width:50px;
+	height:50px;
 }
 
 #color_blue{
@@ -45,7 +57,7 @@ html {
 }
 
 .size_pick {	
-	margin: 20px auto;
+	margin: 5px 0px;
 
 }
 
@@ -61,22 +73,22 @@ html {
 	border-radius:12px;
 	background-color: #994433;
 	
-	height:24px;
-	width:24px;
+	height:18px;
+	width:18px;
 }
 
 #size_32 {
 	border-radius:16px;
 	background-color: #994433;
 	
-	height:32px;
-	width:32px;
+	height:24px;
+	width:24px;
 }
 
 #size_64 {
 	border-radius:32px;
 	background-color: #994433;
 	
-	height:64px;
-	width:64px;
+	height:30px;
+	width:30px;
 }

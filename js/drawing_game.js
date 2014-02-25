@@ -1,6 +1,6 @@
 context = document.getElementById('canvas').getContext("2d");
 context.fillStyle = "#EEE";
-context.fillRect(0,0,1920,900);
+context.fillRect(0,0,600,400);
 
 
 $('#canvas').mousedown(function(e){
@@ -52,7 +52,7 @@ function addClick(x, y, dragging)
 function redraw(){
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
   context.fillStyle = "#EEE";
-  context.fillRect(0,0,1920,900);
+  context.fillRect(0,0,600,400);
   i
   //context.strokeStyle = pickedColor;
   context.lineJoin = "round";
@@ -80,7 +80,7 @@ function redraw(){
 $('#clear').click(function(e){
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
   context.fillStyle = "#EEE";
-  context.fillRect(0,0,1920,900);
+  context.fillRect(0,0,600,400);
   insert_image();
   clickX = [];
   clickY = [];
@@ -129,14 +129,14 @@ function hex(x) {
 {
 
   
-    context.drawImage(base_image, 300, 100);
+    //context.drawImage(base_image, 10, 10);
   
 }
 
 function load_image() 
 {
-	base_image.src = '/img/tree.png';
-	base_image.onload = function(){
-    context.drawImage(base_image, 300, 100);
-  }
+	//base_image.src = '/img/tree.png';
+	//base_image.onload = function(){
+    //context.drawImage(base_image, 10, 10);
+  //}
 }

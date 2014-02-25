@@ -32,7 +32,7 @@
 			<div class="size_pick" data-size="32" id="size_32"></div>
 			<div class="size_pick" data-size="64" id="size_64"></div>
 		</div>
-		<canvas id="canvas" width="1200" height="900"></canvas>
+		<canvas id="canvas" width="600" height="400"></canvas>
 		<script src="js/drawing_game.js"></script>
 	</div>
 
