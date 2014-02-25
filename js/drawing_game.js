@@ -57,10 +57,11 @@ function redraw(){
   //context.strokeStyle = pickedColor;
   context.lineJoin = "round";
   //context.lineWidth = strokeWidth;
-	context.beginPath();	
+	
   for(var i=0; i < clickX.length; i++) {		
-    
+    context.beginPath(); 
     if(clickDrag[i] && i){
+       
       context.moveTo(clickX[i-1], clickY[i-1]);
      }else{
        context.moveTo(clickX[i]-1, clickY[i]);
@@ -69,10 +70,11 @@ function redraw(){
      context.strokeStyle = clickColor[i];
      context.closePath();
      context.lineWidth = clickStroke[i];
+     context.stroke();
      
   }
 
-  context.stroke();
+  
 
   insert_image();
 }
