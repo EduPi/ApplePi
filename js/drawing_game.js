@@ -1,6 +1,6 @@
 context = document.getElementById('canvas').getContext("2d");
 context.fillStyle = "#EEE";
-context.fillRect(0,0,600,400);
+context.fillRect(0,0,500,400);
 
 
 $('#canvas').mousedown(function(e){
@@ -52,7 +52,7 @@ function addClick(x, y, dragging)
 function redraw(){
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
   context.fillStyle = "#EEE";
-  context.fillRect(0,0,600,400);
+  context.fillRect(0,0,500,400);
   i
   //context.strokeStyle = pickedColor;
   context.lineJoin = "round";
@@ -82,7 +82,7 @@ function redraw(){
 $('#clear').click(function(e){
   context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
   context.fillStyle = "#EEE";
-  context.fillRect(0,0,600,400);
+  context.fillRect(0,0,500,400);
   insert_image();
   clickX = [];
   clickY = [];

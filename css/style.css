@@ -29,7 +29,7 @@ body {
 
 .nav_links a {
 	float:left;
-	margin-left:40px;
+	margin-left:30px;
 }
 
 .nav_links a:hover{
@@ -54,7 +54,7 @@ body {
 
 .links a {
 	float:left;
-	margin-left:20px;
+	margin-left:6px;
 }
 
 .links a:hover{
@@ -63,7 +63,7 @@ body {
 }
 
 .letters{
-	width:80px;
+	width:65px;
 	height:80px;
 	float:left;
 	text-align: center;
@@ -81,7 +81,7 @@ body {
 .letters_box {
 	padding-top:40px;
 	float:left;
-	width:570px;
+	width:460px;
 }
 
 .show{
