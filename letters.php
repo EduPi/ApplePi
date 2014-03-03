@@ -90,7 +90,7 @@ alphabet[26] = "z";
           opacity: 0.25
         }, 1000, function() {
           
-          $(".main_pic img").attr('src', 'img/numbers/picture/' + $(".main_pic img").data('number') + '.jpg').css('opacity','100');
+          $(".main_pic img").attr('src', 'img/alphabet/pictures/' + alphabet[$(".main_pic img").data('number')] + '.jpg').css('opacity','100');
         });
       }
         
