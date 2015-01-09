@@ -17,6 +17,27 @@ body {
 
 }
 
+.options {
+	margin: 10px auto;
+	width:620px;
+}
+
+.options img {
+	cursor:pointer;
+}
+
+
+.sequence {
+	display:inline-block;
+	width:100%;
+	margin:10px auto 0px auto;
+}
+
+.sequence img {
+	margin:0px auto;
+	width:10%;
+}
+
 .nav_links {
 	width:746px;
 	margin:0px auto;
@@ -29,7 +50,7 @@ body {
 
 .nav_links a {
 	float:left;
-	margin-left:30px;
+	margin-left:10px;
 }
 
 .nav_links a:hover{

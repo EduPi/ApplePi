@@ -4,6 +4,7 @@
     <a href="dragging.php"><img src="img/nav-2.png" width="101px" height="100px"/></a>
     <a href="numbers.php"><img src="img/nav-3.png" width="101px" height="100px"/></a>
     <a href="drawing.php"><img src="img/nav-4.png" width="101px" height="100px"/></a>
+    <a href="fruits.php"><img src="img/nav-5.png" width="101px" height="100px"/></a>
 </div>
 
 <script>
@@ -47,6 +48,28 @@
 				img_9 = new Image();
 				img_10 = new Image();
 
+				f_img_1 = new Image();
+				f_img_2 = new Image();
+				f_img_3 = new Image();
+				f_img_4 = new Image();
+				f_img_5 = new Image();
+				f_img_6 = new Image();
+				f_img_7 = new Image();
+				f_img_8 = new Image();
+				f_img_9 = new Image();
+
+				f_img_11 = new Image();
+				f_img_12 = new Image();
+				f_img_13 = new Image();
+				f_img_14 = new Image();
+				f_img_15 = new Image();
+				f_img_16 = new Image();
+				f_img_17 = new Image();
+				f_img_18 = new Image();
+				f_img_19 = new Image();
+				f_img_20 = new Image();
+
+
 				img1.src = "img/alphabet/pictures/a.jpg";
 				img2.src = "img/alphabet/pictures/b.jpg";
 				img3.src = "img/alphabet/pictures/c.jpg";
@@ -84,6 +107,27 @@
 				img_8.src = "img/numbers/picture/8.jpg";
 				img_9.src = "img/numbers/picture/9.jpg";
 				img_10.src = "img/numbers/picture/10.jpg";
+
+				f_img_1.src = "img/fruit/1.jpg";
+				f_img_2.src = "img/fruit/2.jpg";
+				f_img_3.src = "img/fruit/3.jpg";
+				f_img_4.src = "img/fruit/4.jpg";
+				f_img_5.src = "img/fruit/5.jpg";
+				f_img_6.src = "img/fruit/6.jpg";
+				f_img_7.src = "img/fruit/7.jpg";
+				f_img_8.src = "img/fruit/8.jpg";
+				f_img_9.src = "img/fruit/q.jpg";
+
+				f_img_11.src = "img/fruit/choices/1.jpg";
+				f_img_12.src = "img/fruit/choices/2.jpg";
+				f_img_13.src = "img/fruit/choices/3.jpg";
+				f_img_14.src = "img/fruit/choices/4.jpg";
+				f_img_15.src = "img/fruit/choices/5.jpg";
+				f_img_16.src = "img/fruit/choices/6.jpg";
+				f_img_17.src = "img/fruit/choices/7.jpg";
+				f_img_18.src = "img/fruit/choices/8.jpg";
+				f_img_19.src = "img/fruit/choices/x.jpg";
+				f_img_20.src = "img/fruit/choices/y.jpg";
 
 			}
 
